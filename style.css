@@ -16,10 +16,10 @@ span{
 }
 .contenedor{
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 50%;
     background-color: white;
 }
-.header-izquierda{
+.header-izquierda, .iconos{
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -35,4 +35,15 @@ span{
 .header{
     display: flex;
     justify-content: space-between;
+}
+
+.iconos i{
+    font-size: 30px;
+}
+.likes, .texto{
+    padding: 10px;
+}
+.abajo{
+    padding: 10px;
+    padding-top: 5px;
 }
