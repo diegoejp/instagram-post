@@ -16,7 +16,7 @@ span{
 }
 .contenedor{
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 500px;
     background-color: white;
 }
 .header-izquierda, .iconos{
@@ -32,6 +32,9 @@ span{
     align-items: center;
     padding: 10px;
 }
+.derecha i{
+    font-size: 30px;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -46,4 +49,7 @@ span{
 .abajo{
     padding: 10px;
     padding-top: 5px;
+}
+.texto{
+    padding-top: 0;
 }
